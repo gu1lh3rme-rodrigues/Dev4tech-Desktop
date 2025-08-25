@@ -621,3 +621,6 @@ C:\Users\guilherme.robles\Desktop\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\obj
 C:\Users\guilherme.robles\Desktop\Nova pasta (2)\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\bin\Debug\Dev4Tech.exe.config
 C:\Users\guilherme.robles\Desktop\Nova pasta (2)\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\obj\Debug\Dev4Tech.exe
 C:\Users\guilherme.robles\Desktop\Nova pasta (2)\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\obj\Debug\Dev4Tech.pdb
+C:\Users\joao.barroso\Desktop\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\bin\Debug\Dev4Tech.exe.config
+C:\Users\joao.barroso\Desktop\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\obj\Debug\Dev4Tech.exe
+C:\Users\joao.barroso\Desktop\Dev4tech-Desktop\Desktop\Dev4Tech\Dev4Tech\obj\Debug\Dev4Tech.pdb
