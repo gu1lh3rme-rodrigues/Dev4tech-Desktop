@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblCadastrar = new System.Windows.Forms.LinkLabel();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -77,20 +76,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(675, 157);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(675, 178);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 17);
+            this.label3.Size = new System.Drawing.Size(281, 15);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Se você ainda não possui uma conta você pode ";
+            this.label3.Text = "Digite o Email e senha da conta nos locais indicados";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(675, 131);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(674, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 17);
+            this.label2.Size = new System.Drawing.Size(43, 17);
             this.label2.TabIndex = 9;
             this.label2.Text = "Login";
             // 
@@ -98,23 +97,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(589, 52);
+            this.label1.Location = new System.Drawing.Point(667, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(290, 65);
             this.label1.TabIndex = 8;
             this.label1.Text = "WORKFLOW";
-            // 
-            // lblCadastrar
-            // 
-            this.lblCadastrar.AutoSize = true;
-            this.lblCadastrar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCadastrar.Location = new System.Drawing.Point(675, 179);
-            this.lblCadastrar.Name = "lblCadastrar";
-            this.lblCadastrar.Size = new System.Drawing.Size(82, 13);
-            this.lblCadastrar.TabIndex = 15;
-            this.lblCadastrar.TabStop = true;
-            this.lblCadastrar.Text = "Cadastrar aqui";
-            this.lblCadastrar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblCadastrar_LinkClicked);
             // 
             // txtSenha
             // 
@@ -123,7 +110,7 @@
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(227, 25);
             this.txtSenha.TabIndex = 16;
-            this.txtSenha.Text = "Digite sua senha";
+            this.txtSenha.Text = "admin";
             this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
             // 
             // txtEmail
@@ -133,7 +120,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(227, 25);
             this.txtEmail.TabIndex = 17;
-            this.txtEmail.Text = "Entre com seu endereço de Email";
+            this.txtEmail.Text = "igor@gmail.com";
             this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // checkBox1
@@ -177,7 +164,6 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.lblCadastrar);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -200,7 +186,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel lblCadastrar;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.CheckBox checkBox1;

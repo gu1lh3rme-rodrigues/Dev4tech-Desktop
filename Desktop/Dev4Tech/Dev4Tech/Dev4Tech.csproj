@@ -98,37 +98,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cs\AddEquipes.cs" />
-    <Compile Include="cs\AddTarefas.cs" />
-    <Compile Include="Adm\AdicionarEquipes.cs">
+    <Compile Include="AddEquipes.cs" />
+    <Compile Include="AddTarefas.cs" />
+    <Compile Include="AdicionarEquipes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adm\AdicionarEquipes.Designer.cs">
+    <Compile Include="AdicionarEquipes.Designer.cs">
       <DependentUpon>AdicionarEquipes.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\AvaliacaoTarefa.cs" />
-    <Compile Include="Adm\AvaliaçãoTarefaAdmin.cs">
+    <Compile Include="AvaliacaoTarefa.cs" />
+    <Compile Include="AvaliaçãoTarefaAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adm\AvaliaçãoTarefaAdmin.Designer.cs">
+    <Compile Include="AvaliaçãoTarefaAdmin.Designer.cs">
       <DependentUpon>AvaliaçãoTarefaAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="cad_login\Cadastro-empresa-admin.cs">
+    <Compile Include="Cadastro-empresa-admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cad_login\Cadastro-empresa-admin.Designer.cs">
+    <Compile Include="Cadastro-empresa-admin.Designer.cs">
       <DependentUpon>Cadastro-empresa-admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="cad_login\Cadastro-empresa.cs">
+    <Compile Include="Cadastro-empresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cad_login\Cadastro-empresa.Designer.cs">
+    <Compile Include="Cadastro-empresa.Designer.cs">
       <DependentUpon>Cadastro-empresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="cad_login\Cadastro-funcionário.cs">
+    <Compile Include="Cadastro-funcionário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cad_login\Cadastro-funcionário.Designer.cs">
+    <Compile Include="Cadastro-funcionário.Designer.cs">
       <DependentUpon>Cadastro-funcionário.cs</DependentUpon>
     </Compile>
     <Compile Include="Chat_geral_equipes.cs">
@@ -137,36 +137,36 @@
     <Compile Include="Chat_geral_equipes.Designer.cs">
       <DependentUpon>Chat_geral_equipes.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\Chat_Mensagens.cs" />
-    <Compile Include="cs\conexao.cs" />
+    <Compile Include="Chat_Mensagens.cs" />
+    <Compile Include="conexao.cs" />
     <Compile Include="Configuracoes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Configuracoes.Designer.cs">
       <DependentUpon>Configuracoes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Adm\AdicionarTarefa.cs">
+    <Compile Include="AdicionarTarefa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adm\AdicionarTarefa.Designer.cs">
+    <Compile Include="AdicionarTarefa.Designer.cs">
       <DependentUpon>AdicionarTarefa.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\empresaCadAdmin.cs" />
-    <Compile Include="cs\empresaCadFuncionario.cs" />
-    <Compile Include="cs\empresa.cs" />
-    <Compile Include="cs\EntregaTarefa.cs" />
-    <Compile Include="cs\EnvioProblema.cs" />
+    <Compile Include="empresaCadAdmin.cs" />
+    <Compile Include="empresaCadFuncionario.cs" />
+    <Compile Include="empresa.cs" />
+    <Compile Include="EntregaTarefa.cs" />
+    <Compile Include="EnvioProblema.cs" />
     <Compile Include="Equipes_Estatisticas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Equipes_Estatisticas.Designer.cs">
       <DependentUpon>Equipes_Estatisticas.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\FiltroEquipes.cs" />
-    <Compile Include="Adm\HomeAdm.cs">
+    <Compile Include="FiltroEquipes.cs" />
+    <Compile Include="HomeAdm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adm\HomeAdm.Designer.cs">
+    <Compile Include="HomeAdm.Designer.cs">
       <DependentUpon>HomeAdm.cs</DependentUpon>
     </Compile>
     <Compile Include="Integrantes_Equipe.cs">
@@ -175,45 +175,45 @@
     <Compile Include="Integrantes_Equipe.Designer.cs">
       <DependentUpon>Integrantes_Equipe.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\LoginVerify.cs" />
-    <Compile Include="Home-Func\PesquisaEquipes.cs">
+    <Compile Include="LoginVerify.cs" />
+    <Compile Include="PesquisaEquipes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home-Func\PesquisaEquipes.Designer.cs">
+    <Compile Include="PesquisaEquipes.Designer.cs">
       <DependentUpon>PesquisaEquipes.cs</DependentUpon>
     </Compile>
-    <Compile Include="cad_login\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cad_login\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home-Func\Home.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home-Func\Home.Designer.cs">
+    <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="cad_login\Login.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cad_login\Login.Designer.cs">
+    <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\PesquisaIntegrantes.cs" />
+    <Compile Include="PesquisaIntegrantes.cs" />
     <Compile Include="Planejamento.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Planejamento.Designer.cs">
       <DependentUpon>Planejamento.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\pontuacaoUsuarios.cs" />
+    <Compile Include="pontuacaoUsuarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Home-Func\Ranking_Equipes.cs">
+    <Compile Include="Ranking_Equipes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home-Func\Ranking_Equipes.Designer.cs">
+    <Compile Include="Ranking_Equipes.Designer.cs">
       <DependentUpon>Ranking_Equipes.cs</DependentUpon>
     </Compile>
     <Compile Include="Relato_Problema.cs">
@@ -222,56 +222,56 @@
     <Compile Include="Relato_Problema.Designer.cs">
       <DependentUpon>Relato_Problema.cs</DependentUpon>
     </Compile>
-    <Compile Include="cs\Sessao.cs" />
-    <Compile Include="Tarefas\Tarefas_Atrasadas.cs">
+    <Compile Include="Sessao.cs" />
+    <Compile Include="Tarefas_Atrasadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarefas\Tarefas_Atrasadas.Designer.cs">
+    <Compile Include="Tarefas_Atrasadas.Designer.cs">
       <DependentUpon>Tarefas_Atrasadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tarefas\Tarefas_Completadas.cs">
+    <Compile Include="Tarefas_Completadas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarefas\Tarefas_Completadas.Designer.cs">
+    <Compile Include="Tarefas_Completadas.Designer.cs">
       <DependentUpon>Tarefas_Completadas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tarefas\Tarefas_Pendentes.cs">
+    <Compile Include="Tarefas_Pendentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarefas\Tarefas_Pendentes.Designer.cs">
+    <Compile Include="Tarefas_Pendentes.Designer.cs">
       <DependentUpon>Tarefas_Pendentes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tarefas\Tarefa_Enviada.cs">
+    <Compile Include="Tarefa_Enviada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarefas\Tarefa_Enviada.Designer.cs">
+    <Compile Include="Tarefa_Enviada.Designer.cs">
       <DependentUpon>Tarefa_Enviada.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tarefas\Tela_Tarefa.cs">
+    <Compile Include="Tela_Tarefa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tarefas\Tela_Tarefa.Designer.cs">
+    <Compile Include="Tela_Tarefa.Designer.cs">
       <DependentUpon>Tela_Tarefa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Adm\Tela_TarefasAdmin.cs">
+    <Compile Include="Tela_TarefasAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Adm\Tela_TarefasAdmin.Designer.cs">
+    <Compile Include="Tela_TarefasAdmin.Designer.cs">
       <DependentUpon>Tela_TarefasAdmin.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Adm\AdicionarEquipes.resx">
+    <EmbeddedResource Include="AdicionarEquipes.resx">
       <DependentUpon>AdicionarEquipes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adm\AvaliaçãoTarefaAdmin.resx">
+    <EmbeddedResource Include="AvaliaçãoTarefaAdmin.resx">
       <DependentUpon>AvaliaçãoTarefaAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cad_login\Cadastro-empresa-admin.resx">
+    <EmbeddedResource Include="Cadastro-empresa-admin.resx">
       <DependentUpon>Cadastro-empresa-admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cad_login\Cadastro-empresa.resx">
+    <EmbeddedResource Include="Cadastro-empresa.resx">
       <DependentUpon>Cadastro-empresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cad_login\Cadastro-funcionário.resx">
+    <EmbeddedResource Include="Cadastro-funcionário.resx">
       <DependentUpon>Cadastro-funcionário.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chat_geral_equipes.resx">
@@ -280,28 +280,28 @@
     <EmbeddedResource Include="Configuracoes.resx">
       <DependentUpon>Configuracoes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adm\AdicionarTarefa.resx">
+    <EmbeddedResource Include="AdicionarTarefa.resx">
       <DependentUpon>AdicionarTarefa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Equipes_Estatisticas.resx">
       <DependentUpon>Equipes_Estatisticas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adm\HomeAdm.resx">
+    <EmbeddedResource Include="HomeAdm.resx">
       <DependentUpon>HomeAdm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Integrantes_Equipe.resx">
       <DependentUpon>Integrantes_Equipe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home-Func\PesquisaEquipes.resx">
+    <EmbeddedResource Include="PesquisaEquipes.resx">
       <DependentUpon>PesquisaEquipes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cad_login\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home-Func\Home.resx">
+    <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cad_login\Login.resx">
+    <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Planejamento.resx">
@@ -317,28 +317,28 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Home-Func\Ranking_Equipes.resx">
+    <EmbeddedResource Include="Ranking_Equipes.resx">
       <DependentUpon>Ranking_Equipes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Relato_Problema.resx">
       <DependentUpon>Relato_Problema.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tarefas\Tarefas_Atrasadas.resx">
+    <EmbeddedResource Include="Tarefas_Atrasadas.resx">
       <DependentUpon>Tarefas_Atrasadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tarefas\Tarefas_Completadas.resx">
+    <EmbeddedResource Include="Tarefas_Completadas.resx">
       <DependentUpon>Tarefas_Completadas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tarefas\tarefas_Pendentes.resx">
+    <EmbeddedResource Include="tarefas_Pendentes.resx">
       <DependentUpon>Tarefas_Pendentes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tarefas\Tarefa_Enviada.resx">
+    <EmbeddedResource Include="Tarefa_Enviada.resx">
       <DependentUpon>Tarefa_Enviada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tarefas\Tela_Tarefa.resx">
+    <EmbeddedResource Include="Tela_Tarefa.resx">
       <DependentUpon>Tela_Tarefa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Adm\Tela_TarefasAdmin.resx">
+    <EmbeddedResource Include="Tela_TarefasAdmin.resx">
       <DependentUpon>Tela_TarefasAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -447,6 +447,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Design sem nome %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Adm\" />
+    <Folder Include="cad_login\" />
+    <Folder Include="cs\" />
+    <Folder Include="Home-Func\" />
+    <Folder Include="Tarefas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
